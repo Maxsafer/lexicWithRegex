@@ -46,6 +46,5 @@ def inputText():
   return inputStrings
   
 if __name__ == '__main__':
-  reconocidos = [" ", "id", "ent", "real", "<", "<=", ">", ">=", "==", "=", "+", "-", "*", "/", "%", "**", "++", "--"]
   inputText = inputText()
   lexLuthor(inputText)
